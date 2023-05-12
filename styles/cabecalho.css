@@ -1,0 +1,74 @@
+.cabecalho {
+    background: var(--gradient-default);
+    padding: 48px 20px;
+}
+
+.cabecalho__container {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.cabecalho__logo-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho__logo {
+    font-size: 18px;
+    line-height: 22.5px;
+    color: var(--white);
+}
+
+.cabecalho__search-box,
+.cabecalho__search-box::placeholder {
+    color: var(--white);
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+}
+
+.cabecalho__search-box {
+    background-color: rgba(255, 255, 255, 0.2);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 12px;
+    /*  adicionar medida certa de padding de acordo com a lupa svg*/
+}
+
+.cabecalho__search-box::placeholder {
+    opacity: 0.5;
+    /* background: url("../assets/search.svg") no-repeat; */
+    /* font-family: FontAwesome; */
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        padding: 41px 0;
+    }
+
+    .cabecalho__container {
+        gap: 73px;
+    }
+
+    .cabecalho__logo {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .cabecalho__search-box {
+        font-size: 18px;
+        padding: 22px;
+    }
+
+    .cabecalho__search-box::placeholder {
+        font-size: 18px;
+        line-height: 21.78px;
+    }
+}

@@ -1,0 +1,19 @@
+@import url("cabecalho.css");
+@import url("feed.css");
+
+:root {
+    --purple: #574AE8;
+    --white: #FFFFFF;
+    --white-200: #F3F5F7;
+    --gray: #717171;
+    --gray-dark: #1A202C;
+    --gradient-default: linear-gradient(270deg, #3EA1DB 0%, #574AE8 100%);
+    --primary-font: 'Lexend Deca', sans-serif;
+    --secondary-font: 'Inter', sans-serif;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    background-color: var(--white-200);
+}
