@@ -13,7 +13,7 @@ Home page de um blog de notícias desenvolvida como solução para o 1º desafio
 
 Você pode conferir a versão final executável do projeto clicando no link abaixo:
 
-### [Acesse o projeto](https://codelandia-01-blog.netlify.app/)
+### [Acesse o projeto](https://blog-codelandia-feed.netlify.app/)
 ## 🛠️ Abrir e rodar o projeto
 
 Para rodar o projeto na sua máquina, clone o repositório em um diretório local e execute o arquivo ``index.html`` em seu navegador.
